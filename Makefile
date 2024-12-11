@@ -44,3 +44,5 @@ report/count_report.html: report/count_report.qmd
 
 clean:
 	rm -f results/*.dat results/figure/*.png report/count_report.html
+	rm -rf report/count_report_files 
+# remove count_report_files to reset repo to starting point
